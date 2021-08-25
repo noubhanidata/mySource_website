@@ -1,0 +1,119 @@
+﻿body {
+    color: white;
+}
+
+.button {
+    padding: 1%;
+    transition-duration: 0.4s;
+    font-family: "montserrat";
+    text-decoration: none;
+}
+
+    .button:hover {
+        background-color: #0a18b4;
+        color: white;
+        // border: solid;
+    }
+
+.result {
+    border: solid transparent;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 0;
+    height: 900px;
+    width: 1300px;
+    padding-bottom: 25px;
+    margin-bottom: 150px;
+}
+
+#label {
+    position: relative;
+    //margin:40px;
+    margin-left: 20px;
+    top: 55px;
+    font-size: large;
+}
+
+#label1 {
+    position: relative;
+    margin-left: 200px;
+    margin-top: 55px;
+    font-size: large;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+#input {
+    margin-top: 55px;
+    position: relative;
+    margin: 40px;
+    margin-left: 30%;
+}
+
+.box {
+    top: 55px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid transparent;  
+    position: relative;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.p1 {
+    position: relative;
+    margin: 40px;
+    margin-left: 200px;
+    margin-top: 55px;
+    font-size: large;
+    margin-right: 30px;
+}
+
+.search {
+    width: 50%;
+    background-color: white;
+}
+
+.table1 {
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 1px;
+}
+
+th {
+    //padding-top: 12px;
+    //padding-bottom: 12px;
+    text-align: left;
+    background-color: grey;
+    color: white;
+    font-size: large;
+}
+
+.th1 {
+    width: 40%;
+}
+
+.title3 {
+    text-align: center;
+    display: inline-block;
+}
+
+.page-nav {
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 540px;
+}
+#box-inside{
+    text-decoration: none;
+    color:white;
+}
+#submit-box{
+     position: absolute;
+    top: 150px;
+    left: 110px;
+    width: 100px;
+    height: 30px;
+    color:white;
+    background: none;
+}

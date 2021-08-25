@@ -1,0 +1,88 @@
+﻿body
+{
+    color:white;
+}
+#logo {
+    position: absolute;
+}
+input[type="submit"] {
+    width: 20%;
+    height: auto;
+    border: 2px solid black;
+    padding: 1%;
+    margin: 2.5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition-duration: 0.4s;
+    font-family: "montserrat";
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+
+    input[type="submit"]:hover {
+        background-color: #0a18b4;
+        border: 2.5px solid;
+        color: honeydew;
+    }
+
+    input[type="submit"]:active {
+        background-color: #0a18b5;
+        border: 2.5px;
+        color: rgb(0, 0, 0);
+    }
+
+#label {
+    text-align: center;
+    position: center;
+    font-size: xx-large;
+}
+#input {
+    position: center;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.champ{
+    border: solid black;
+    position : absolute;
+    margin-top : 100px;
+    margin-left: 500px; 
+    height: 400px;
+    width: 400px;
+
+}
+#links {
+    margin-top: 25px;
+    position: relative;
+    text-align: center;
+    margin-left: 32%;
+    top:10px;
+    color:red;
+
+}
+#submit {
+    position: center;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 25px;
+}
+.footer {
+    position: absolute;
+    // left: 15px;
+    bottom: 0;
+    margin-top: 38%;
+    // width: 100%;
+    // background-color: red;
+    //color: black;
+    // text-align: center;
+}
+#background {
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 35%;
+    //max-height: 90%;
+}

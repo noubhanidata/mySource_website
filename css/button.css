@@ -1,0 +1,12 @@
+﻿.button {
+    padding: 1%;
+    transition-duration: 0.4s;
+    font-family: "montserrat";
+    text-decoration: none;
+}
+
+    .button:hover {
+        background-color: #0a18b4;
+        color: white;
+        // border: solid;
+    }

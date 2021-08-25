@@ -1,0 +1,407 @@
+﻿body {
+    color: white;
+}
+
+.button {
+    padding: 1%;
+    transition-duration: 0.4s;
+    font-family: "montserrat";
+    text-decoration: none;
+}
+
+    .button:hover {
+        background-color: #0a18b4;
+        color: white;
+        // border: solid;
+    }
+
+.header {
+    width: 100%;
+    height: 120px;
+    position: relative;
+}
+
+#logo {
+    position: relative;
+    float: left;
+    margin-right: 14px;
+    padding: 5px;
+}
+
+.navbar2 {
+    position: absolute;
+    margin-left: 300px;
+    font-family: Arial;
+    width: 162px;
+    top: 0px;
+    right: 0;
+}
+
+    /* Links inside the navbar */
+    .navbar2 a {
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 16px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .navbar2 a:hover { /*on hover effects*/
+            background-color: blue;
+        }
+/* Navbar container */
+.navbar {
+    margin-left: 110px;
+    overflow: hidden;
+    font-family: Arial;
+    width: 290px;
+}
+
+    /* Links inside the navbar */
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 16px 16px;
+        text-decoration: none;
+    }
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+    /* Dropdown button */
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit; /* Important for vertical align on mobile phones */
+        margin: 0; /* Important for vertical align on mobile phones */
+    }
+
+    /* Add a red background color to navbar links on hover */
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: blue;
+    }
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    // background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: white;
+        float: none;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        /* Add a grey background color to dropdown links on hover */
+        .dropdown-content a:hover {
+            // background-color: #ddd;
+            color: black;
+        }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer {
+    position: relative;
+    // left: 15px;
+    bottom: 0;
+    margin-top: 38%;
+    // width: 100%;
+    // background-color: red;
+    //color: black;
+    // text-align: center;
+    // border:solid white;
+}
+
+#search-bar {
+    position: absolute;
+    //padding: 1%;
+    border: solid;
+    width: 300px;
+    height: 20px;
+    left: 40%;
+    top: 20px;
+    background-color: darkgray;
+}
+
+.title {
+    font-size: 300%;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+    }
+}
+
+#home-text {
+    position: relative;
+    text-align: center;
+    font-size: large;
+    // animation: fading 1s ease-in-out infinite alternate;
+    // text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+@keyframes fading {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #fff, 0 0 35px #fff;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+}
+
+.more {
+    position: relative;
+    margin-left: 45%;
+    margin-top: 1%;
+    animation: fading 1s ease-in-out infinite alternate;
+}
+
+#background {
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 35%;
+    //max-height: 90%;
+}
+
+.Socialbar {
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    // margin-left: 80%;
+    margin: 10px;
+    // font-size: 10px;
+    text-decoration: none;
+}
+
+    .Socialbar img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 25px;
+    }
+
+    .Socialbar a:hover {
+        zoom: 150%;
+        box-shadow: 0 0 10px 10px rgba(0, 140, 186, 0.5);
+    }
+
+.button-grp {
+}
+.body-section {
+    position: relative;
+    margin-left: 30%;
+    font-family: Arial;
+    width: 700px;
+    height: 900px;
+    overflow: hidden;
+    border: solid white;
+}
+
+#editer {
+    position: relative;
+    top: 110px;
+    float: left;
+}
+
+#profile-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.button-section {
+}
+
+#resume {
+    position: relative;
+    float: left;
+    top: 170px;
+    left: 25px;
+}
+
+#resumetext {
+    border: solid white;
+    padding: 10px;
+    width: 500px;
+    margin-left: 50px;
+    position: relative;
+    top: 200px;
+}
+
+#nom {
+    position: relative;
+    float: left;
+    top: 200px;
+    margin-top: 35px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+#Profession {
+    position: absolute;
+    float: left;
+    top: 400px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    left: 5px;
+}
+
+#telephone {
+    position: absolute;
+    float: left;
+    top: 450px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    left: 5px;
+}
+
+
+#nomtext {
+   position: absolute;
+    float: left;
+    top: 340px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    left: 100px;
+}
+
+#professiontext {
+    position: absolute;
+    float: left;
+    top: 400px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    left: 100px;
+}
+
+#telephonetext {
+    position: absolute;
+    float: left;
+    top: 450px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    left: 100px;
+}
+#prenomtext {
+    position: absolute;
+    float: left;
+    top: 500px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    left: 100px;
+}
+#pass1text {
+    position: absolute;
+    float: left;
+    top: 550px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    left: 100px;
+}
+#pass2text {
+    position: absolute;
+    float: left;
+    top: 600px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    left: 140px;
+}
+#pass1 {
+    position: absolute;
+    float: left;
+    top: 550px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    left: 5px;
+}#pass2 {
+    position: absolute;
+    float: left;
+    top: 600px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    left: 5px;
+}
+#prenom {
+    position: absolute;
+    float: left;
+    top: 500px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    left: 5px;
+}
+.toolsbox {
+    position: absolute;
+    left: 650px;
+    top: 15px;
+    width: 100px;
+    height: 70px;
+}
+#submit{
+    position: relative;
+    top: 550px;
+    left:250px;
+    
+}
+#fileSelect{
+      position: absolute;
+       top: 130px;
+}
+#submit-file{
+     position: absolute;
+    top: 130px;
+    left:200px;
+}
+#names{
+     position: absolute;
+     top:35px;
+     left: 200px;
+     font-size: xx-large;
+}

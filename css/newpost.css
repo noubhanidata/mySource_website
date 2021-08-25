@@ -1,0 +1,98 @@
+﻿body {
+    color: white;
+}
+body
+{
+
+color : white;
+}
+.button {
+    padding: 1%;
+    transition-duration: 0.4s;
+    font-family: "montserrat";
+    text-decoration: none;
+}
+
+    .button:hover {
+        background-color: #0a18b4;
+        color: white;
+        // border: solid;
+    }
+
+#mypost {
+    position: relative;
+    margin-left: 45%;
+    margin-top: 1%;
+    // animation: fading 1s ease-in-out infinite alternate;
+}
+.button {
+    padding: 1%;
+    transition-duration: 0.4s;
+    font-family: "montserrat";
+    text-decoration: none;
+}
+
+    .button:hover {
+        background-color: #0a18b4;
+        color: white;
+        // border: solid;
+    }
+.champ {
+  //  border: solid black;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 350px;
+    height: 820px;
+    width: 700px;
+    padding-bottom: 25px;
+    margin-bottom: 150px;
+}
+
+#div1 {
+    top: 55px;
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    position: relative;
+    margin-left: 30%;
+}
+#file {
+    top: 55px;
+    position: relative;
+    margin: 40px;
+    margin-left: 30%;
+}
+#dropdown {
+    top: 55px;
+    position: relative;
+    margin: 40px;
+    margin-left: 30%;
+}
+#label {
+    position:relative;
+    margin:40px;
+    margin-left: 20px;
+    top: 55px;
+    font-size: large;
+}
+#input {
+    top: 55px;
+    position: relative;
+    margin: 40px;
+    margin-left: 30%;
+}
+#text-area {
+    position: relative;
+    margin: 40px;
+    margin-left: 30%;
+    width:400px;
+    height:100px;
+}
+
+#butn {
+    top: 55px;
+    position: relative;
+    margin: 40px;
+    margin-left: 30%;
+}

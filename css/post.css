@@ -1,0 +1,158 @@
+﻿body {
+    color: white;
+}
+
+.button {
+    padding: 1%;
+    transition-duration: 0.4s;
+    font-family: "montserrat";
+    text-decoration: none;
+}
+
+    .button:hover {
+        background-color: #0a18b4;
+        color: white;
+        // border: solid;
+    }
+
+.title {
+    font-size: 300%;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+    }
+}
+
+#home-text {
+    position: relative;
+    text-align: center;
+    font-size: large;
+    // animation: fading 1s ease-in-out infinite alternate;
+    // text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+@keyframes fading {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #fff, 0 0 35px #fff;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+}
+
+.button-grp {
+}
+
+.profil {
+    border: solid black;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 820px;
+    width: 1000px;
+    padding-bottom: 25px;
+    margin-bottom: 150px;
+}
+
+#label {
+    position: relative;
+    margin: 40px;
+    margin-left: 20px;
+    top: 55px;
+    font-size: large;
+}
+
+.table1 {
+    width: 100%;
+    width: 600px;
+}
+
+#label1 {
+    position: relative;
+    margin: 400px;
+    margin-left: 200px;
+    margin-top: 55px;
+    font-size: large;
+    margin-right: 30px;
+}
+
+.label1 {
+    position: relative;
+    margin: 400px;
+    margin-left: 200px;
+    margin-top: 55px;
+    font-size: large;
+    margin-right: 30px;
+}
+
+#input {
+    margin-top: 55px;
+    position: relative;
+    margin: 40px;
+    margin-left: 30%;
+}
+
+#div1 {
+    top: 55px;
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    position: relative;
+    margin-left: 30%;
+}
+
+.p1 {
+    position: relative;
+    margin: 40px;
+    margin-left: 150px;
+    margin-top: 55px;
+    font-size: large;
+    margin-right: 30px;
+    font-size: x-large;
+}
+
+.section {
+    width: 50px;
+    margin-left: 5px;
+    color: white;
+}
+
+.div_bar {
+    margin-left: 20px;
+    float: left;
+}
+
+.download {
+
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+.description {
+    border: 3px solid black;
+    margin-top: 300px;
+    margin-left: 180px;
+    font-size: large;
+    color: white;
+    width: 600px;
+    height: 300px;
+}
+#author-email{
+    position:relative;
+        margin-top: 300px;
+    margin-left: 180px;
+    color:#13E2E5;
+}
